@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>697 Roots | Educational Workshops, Digital Resources & Community</title>
+  <style>
+    :root {
+      --bg: #f8f9fa;
+      --surface: #ffffff;
+      --primary: #1e3a2f;
+      --accent: #b8860b;
+      --text: #1f2937;
+      --muted: #4b5563;
+      --border: #e5e7eb;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background-color: var(--primary);
+      color: #ffffff;
+      padding: 1.25rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header .brand {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    header nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-size: 0.95rem;
+    }
+    header nav a:hover {
+      color: #ffffff;
+    }
+    .hero {
+      background: linear-gradient(135deg, #1e3a2f 0%, #2d5243 100%);
+      color: #ffffff;
+      text-align: center;
+      padding: 4.5rem 1.5rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      max-width: 680px;
+      margin: 0 auto 1.5rem;
+      font-size: 1.15rem;
+      color: #d1fae5;
+    }
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+    .section-title {
+      font-size: 1.75rem;
+      color: var(--primary);
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card h3 {
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+      font-size: 1.25rem;
+    }
+    .card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 1.25rem;
+    }
+    .price {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 1rem;
+    }
+    .price span {
+      font-size: 0.9rem;
+      color: var(--muted);
+      font-weight: 400;
+    }
+    .badge {
+      display: inline-block;
+      background: #ecfdf5;
+      color: var(--primary);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 0.35rem 0.75rem;
+      border-radius: 4px;
+      border: 1px solid #a7f3d0;
+      text-align: center;
+    }
+    .policy-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .policy-box h3 {
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+    }
+    .policy-box p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 0.75rem;
+    }
+    footer {
+      background: #111827;
+      color: #9ca3af;
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #f3f4f6;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand">697 Roots</div>
+    <nav>
+      <a href="#services">Programs & Pricing</a>
+      <a href="#about">About Us</a>
+      <a href="#policies">Policies & Terms</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to 697 Roots</h1>
+    <p>Structured educational workshops, study group sessions, and foundational digital resources designed to empower independent learners and community builders.</p>
+  </section>
+
+  <div class="container" id="services">
+    <h2 class="section-title">Educational Programs & Digital Offerings</h2>
+    <div class="grid">
+      <div class="card">
+        <div>
+          <h3>Community Study Group Access</h3>
+          <p>Ongoing access to structured study group sessions, curated reading materials, collaborative discussion rooms, and weekly Q&A workshops.</p>
+        </div>
+        <div>
+          <div class="price">$35.00 USD <span>/ month</span></div>
+          <span class="badge">Digital Membership • Instant Access</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <h3>Foundational Workshop Series</h3>
+          <p>Comprehensive live and recorded educational seminar covering foundational principles, practical templates, and step-by-step reference guides.</p>
+        </div>
+        <div>
+          <div class="price">$150.00 USD <span>/ seminar pass</span></div>
+          <span class="badge">Online Seminar & Digital Vault</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <h3>1-on-1 Strategy & Review Session</h3>
+          <p>Private 60-minute virtual consultation and study review session tailored to your personal educational roadmap and organizational goals.</p>
+        </div>
+        <div>
+          <div class="price">$95.00 USD <span>/ session</span></div>
+          <span class="badge">Scheduled Virtual Session</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="policy-box" id="about">
+      <h3>About 697 Roots</h3>
+      <p><strong>697 Roots</strong> provides independent educational media, live virtual study groups, and organized digital coursework. All programs are strictly for educational and informational purposes and are delivered digitally to registered participants.</p>
+    </div>
+
+    <div class="policy-box" id="policies">
+      <h3>Fulfillment, Refund & Cancellation Policies</h3>
+      <p><strong>Digital Delivery & Fulfillment Policy:</strong> All memberships, workshop passes, and downloadable study materials are delivered electronically via email and private online group access immediately upon payment confirmation (or within 24 hours for scheduled live sessions). No physical goods are shipped.</p>
+      <p><strong>Refund & Return Policy:</strong> If you are unsatisfied with a live workshop registration or scheduled session, you may request a full refund up to 48 hours prior to the scheduled event by contacting <a href="mailto:jennnicfig@gmail.com">jennnicfig@gmail.com</a>. Due to the immediate access nature of downloadable digital guides and recorded archives, completed digital downloads are final sale once accessed.</p>
+      <p><strong>Subscription Cancellation Policy:</strong> Recurring monthly study group memberships may be canceled at any time with zero cancellation fees by emailing <a href="mailto:jennnicfig@gmail.com">jennnicfig@gmail.com</a> prior to your next billing cycle.</p>
+      <p><strong>Privacy & Terms of Service:</strong> Customer contact information and payment details processed securely via Stripe are used solely to fulfill orders, manage group access, and provide customer support. 697 Roots never sells or shares personal data with third parties.</p>
+    </div>
+
+    <div class="policy-box" id="contact">
+      <h3>Customer Support & Contact Information</h3>
+      <p>Have questions regarding an order, workshop schedule, or billing inquiry? Reach out to our team directly:</p>
+      <p><strong>Business Name:</strong> 697 Roots</p>
+      <p><strong>Support Email:</strong> <a href="mailto:jennnicfig@gmail.com">jennnicfig@gmail.com</a></p>
+      <p><strong>Operating Hours:</strong> Monday – Friday, 9:00 AM – 5:00 PM EST (Responses within 1 business day)</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 697 Roots. All rights reserved. | Contact: <a href="mailto:jennnicfig@gmail.com">jennnicfig@gmail.com</a></p>
+    <p style="margin-top: 0.5rem;">Secure payments processed via Stripe. Educational & Digital Services Only.</p>
+  </footer>
+
+</body>
+</html>
